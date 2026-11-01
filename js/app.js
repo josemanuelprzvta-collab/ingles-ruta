@@ -3,7 +3,7 @@
   'use strict';
 
   var Motor = window.Motor, Progreso = window.Progreso, Voz = window.Voz, H = Motor.h;
-  var VERSION = '1.0.0';
+  var VERSION = '1.1.0';
   var ORDEN = ['a1', 'a2', 'b1', 'b2', 'c1', 'c2'];
   var app = document.getElementById('app');
 
