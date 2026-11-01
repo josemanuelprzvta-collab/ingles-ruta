@@ -20,7 +20,8 @@ Aplicación web para aprender inglés paso a paso, con los niveles del Marco Com
 | A1 | Completo (14 sesiones) |
 | A2 | Completo (14 sesiones) |
 | B1 | Completo (14 sesiones) |
-| B2, C1, C2 | Temario listo, contenido **en construcción** |
+| B2 | Completo (14 sesiones) |
+| C1, C2 | Temario listo, contenido **en construcción** |
 
 ## Probarla en tu computadora
 
@@ -49,14 +50,14 @@ Después de actualizar:
 
 - GitHub Pages tarda uno o dos minutos en reflejar el cambio.
 - Si sigues viendo la versión vieja, recarga sin caché (`Ctrl + F5`; en el celular, cierra y abre la pestaña).
-- Para forzar que todos descarguen los archivos nuevos, cambia el número de versión (por ejemplo `?v=1.1.0` por `?v=1.1.1`) en `index.html`; aparece en cada `<script>` y en el `<link>`.
+- Para forzar que todos descarguen los archivos nuevos, cambia el número de versión (por ejemplo `?v=1.2.0` por `?v=1.2.1`) en `index.html`; aparece en cada `<script>` y en el `<link>`.
 
 ### Qué pasa con el progreso de las personas
 
 El progreso se guarda en el navegador de cada persona (no en GitHub) y está ligado al **id** de cada sesión (`a1-01`, `a2-07`…). Por eso:
 
 - ✅ Puedes corregir textos, vocabulario, frases y ejercicios sin perder progreso.
-- ✅ Puedes llenar B2, C1 y C2 cuando quieras; no afecta a los niveles ya publicados.
+- ✅ Puedes llenar C1 y C2 cuando quieras; no afecta a los niveles ya publicados.
 - ⚠️ **No cambies los `id`** de las sesiones existentes: esa sesión aparecería como no aprobada.
 - ⚠️ Agrega sesiones nuevas **al final** de un nivel. Si insertas una en medio, quien ya avanzó tendría que aprobarla para volver a entrar a las siguientes.
 - Si algo sale mal, GitHub guarda el historial: abre el archivo, pulsa **History** y vuelve a una versión anterior.
